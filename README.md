@@ -67,3 +67,45 @@ It gives farmers real-time insights into animal behavior, health, movement, and 
 - ├── utils/
 - │ └── api.js
 - └── App.jsx
+
+
+```sh
+
+---
+
+## ⚙ Installation
+
+### Clone Repo
+```sh
+git clone https://github.com/madzyy/pig-monitoring-frontend.git
+cd pig-monitoring-frontend
+```
+
+##Install Dependencies
+```sh
+npm install
+```
+
+##Start Development Server
+```sh
+npm run dev
+```
+
+##🔗 API Configuration
+
+#Edit src/utils/api.js:
+```sh
+export const API_URL = "http://localhost:8000";
+```
+
+##🧪 How the Model Test Page Works
+
+- User uploads an image
+
+- Image sent to backend FastAPI /predict
+
+- Backend returns YOLO bounding boxes + labels
+
+- Overlay drawn on the canvas
+
+- Confidence and behavior displayed
