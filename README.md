@@ -52,4 +52,18 @@ It gives farmers real-time insights into animal behavior, health, movement, and 
 ---
 
 ## 📂 Folder Structure
-
+- src/
+- ├── components/
+- │ ├── Header.jsx
+- │ ├── Sidebar.jsx
+- │ ├── AnalyticsCard.jsx
+- │ └── BehaviorOverlay.jsx
+- ├── pages/
+- │ ├── Dashboard.jsx
+- │ ├── Behavior.jsx
+- │ ├── MapView.jsx
+- │ ├── AnimalDetails.jsx
+- │ └── TestModel.jsx
+- ├── utils/
+- │ └── api.js
+- └── App.jsx
