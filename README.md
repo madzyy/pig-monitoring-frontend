@@ -69,9 +69,7 @@ It gives farmers real-time insights into animal behavior, health, movement, and 
 - └── App.jsx
 
 
-```sh
 
----
 
 ## ⚙ Installation
 
@@ -81,24 +79,24 @@ git clone https://github.com/madzyy/pig-monitoring-frontend.git
 cd pig-monitoring-frontend
 ```
 
-##Install Dependencies
+## Install Dependencies
 ```sh
 npm install
 ```
 
-##Start Development Server
+## Start Development Server
 ```sh
 npm run dev
 ```
 
-##🔗 API Configuration
+## 🔗 API Configuration
 
-#Edit src/utils/api.js:
+# Edit src/utils/api.js:
 ```sh
 export const API_URL = "http://localhost:8000";
 ```
 
-##🧪 How the Model Test Page Works
+## 🧪 How the Model Test Page Works
 
 - User uploads an image
 
