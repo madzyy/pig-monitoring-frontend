@@ -4,7 +4,7 @@
 # ✅ **README for Frontend**  
 (For: `pig-monitoring-frontend`)
 
-```markdown
+
 # 🐖 Cloud AI Livestock Security & Monitoring System — Frontend  
 React • Redux/Context • Maps • YOLO Overlays • AWS • Analytics Dashboard
 
